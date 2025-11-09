@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>capitalize function</title>
+</head>
+<body>
+
+  <script>
+    function capitalize(str) {
+      let firstLetter = str.charAt(0).toUpperCase();
+      let remaining = str.slice(1).toLowerCase();
+
+      return firstLetter + remaining;
+    } 
+    const str = prompt("Enter a string: ");
+    console.log(`Modified string is: ${capitalize(str)}`);
+  </script>
+
+</body>
+</html>
+
