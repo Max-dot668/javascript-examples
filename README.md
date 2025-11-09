@@ -1,18 +1,34 @@
-# javascript-examples
-Variables and Operators - Quick Overview
+# The Odin Project - JavaScript Assignments
 
-Learn JavaScript basics: variables, numbers, operators.
+My solutions to The Odin Project assignments that don't have a pre-made repository.
 
-Use let and const to store values.
+## 📚 Structure
 
-Do math and string operations.
+### Foundations Course
 
-Test your code by adding this to an HTML file:
+| Lesson | Status | Topics |
+|--------|--------|--------|
+| [Variables & Operators](./foundations/01-variables-operators) | ✅ | `let`, `const`, operators |
+| [Functions Basics](./foundations/02-functions-basics) | 🔄 | Functions, scope, return values |
+| Problem Solving | ⬜ | Pseudocode, algorithms |
+| Arrays & Loops | ⬜ | Array methods, iteration |
+| DOM Manipulation | ⬜ | Selecting, modifying elements |
 
-<script>
-  // JavaScript goes here
-  console.log("Hello, World!");
-</script>
+## 🎯 About
 
+This repository contains my solutions to [The Odin Project](https://www.theodinproject.com/) JavaScript exercises that don't come with a pre-built repository structure.
 
-Open the file in a browser → Right-click → Inspect → Console to see results.
+For exercises with existing repos (like testing assignments), see my other repositories.
+
+## 🛠️ How to Run
+
+Each assignment folder contains:
+- `index.html` - Open in browser to see results
+- `script.js` or `exercises.js` - JavaScript code
+- `README.md` - Assignment details and notes
+
+Open the HTML file in your browser and check the console (`F12` → Console).
+
+---
+
+*Learning JavaScript through The Odin Project* 🚀
